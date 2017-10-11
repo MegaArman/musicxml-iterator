@@ -4,11 +4,12 @@
   "description": "an iterator for musicxml",
   "main": "./lib/Iterator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint --cache ./lib/*.js tests/*.js",
+    "test": "npm run lint && nyc tape tests/*.js | tap-nyc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MegaArman/musicxmliterator.git"
+    "url": "https://github.com/MegaArman/musicxmliterator"
   },
   "keywords": [
     "musicxml"
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/MegaArman/musicxmliterator/issues"
   },
-  "homepage": "https://github.com/MegaArman/musicxmliterator#readme"
+  "homepage": "https://github.com/MegaArman/musicxmliterator#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "nyc": "^11.2.1",
+    "tap-nyc": "^1.0.3",
+    "tape": "^4.8.0"
+  }
 }
