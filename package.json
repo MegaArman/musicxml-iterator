@@ -1,0 +1,22 @@
+{
+  "name": "musicxmliterator",
+  "version": "1.0.0",
+  "description": "an iterator for musicxml",
+  "main": "musicxmliterator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaArman/musicxmliterator.git"
+  },
+  "keywords": [
+    "musicxml"
+  ],
+  "author": "Arman Bahraini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MegaArman/musicxmliterator/issues"
+  },
+  "homepage": "https://github.com/MegaArman/musicxmliterator#readme"
+}
