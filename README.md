@@ -1,4 +1,4 @@
-# musicxmliterator
+# musicxml-iterator
 This module aims to make melodic, harmonic, and rhythmic analysis easier by abstracting away the necessity of parsing MusicXML in the form of an Iterator. Demo coming soon!
 
 ```javascript
@@ -10,7 +10,7 @@ i.next();
 
 ## Installation
 ```
-npm install musicxmliterator
+npm install musicxml-iterator
 ```
 
 ## Supported functions
