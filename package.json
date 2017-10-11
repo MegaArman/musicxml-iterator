@@ -1,6 +1,6 @@
 {
   "name": "musicxmliterator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An iterator for musicxml",
   "main": "./lib/Iterator.js",
   "files": [
@@ -15,7 +15,11 @@
     "url": "https://github.com/MegaArman/musicxmliterator"
   },
   "keywords": [
-    "musicxml"
+    "music informatics",
+    "musicxml",
+    "iterator",
+    "music scores",
+    "music"
   ],
   "author": "Arman Bahraini",
   "license": "MIT",
@@ -29,13 +33,6 @@
     "tap-nyc": "^1.0.3",
     "tape": "^4.8.0"
   },
-  "keywords": [
-    "music informatics",
-    "musicxml",
-    "iterator",
-    "music scores",
-    "music"
-  ],
   "dependencies": {
     "elementtree": "^0.1.7"
   }
