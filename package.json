@@ -2,7 +2,7 @@
   "name": "musicxmliterator",
   "version": "1.0.0",
   "description": "an iterator for musicxml",
-  "main": "musicxmliterator.js",
+  "main": "./lib/Iterator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
