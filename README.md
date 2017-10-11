@@ -1,5 +1,5 @@
 # musicxmliterator
-This module aims to make melodic, harmonic, and rhythmic analysis easier by abstracting away the necessity of parsing MusicXML in the form of an Iterator. 
+This module aims to make melodic, harmonic, and rhythmic analysis easier by abstracting away the necessity of parsing MusicXML in the form of an Iterator. Demo coming soon!
 
 ```javascript
 const Iterator = require("musicxmliterator");
@@ -10,8 +10,10 @@ i.next();
 
 ## Installation
 ```
-npm install toscanini
+npm install musicxmliterator
 ```
+
+## Supported functions
 
 ### selectInstrument(instrumentName)
 The iterator is set to the first measure of the instrument part specified by instrumentName (ex: "Violin")
