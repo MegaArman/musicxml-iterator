@@ -25,5 +25,8 @@
     "nyc": "^11.2.1",
     "tap-nyc": "^1.0.3",
     "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "elementtree": "^0.1.7"
   }
 }

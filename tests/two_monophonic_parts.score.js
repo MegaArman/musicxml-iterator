@@ -14,8 +14,8 @@ test("two_monophonic_parts.xml", (t) =>
   const i =  Iterator(musicXML);
 
   t.deepEqual(i.selectInstrument("Flute"), true, "has Flute");
-
-  t.deepEqual(i.getInstrumentNames(), ["Violin", "Flute"], "getInstrumentNames");
+  t.deepEqual(i.getInstrumentNames(), ["Violin", "Flute"], 
+              "getInstrumentNames");
   t.end();
 });
 
