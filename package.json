@@ -1,6 +1,6 @@
 {
   "name": "musicxmliterator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An iterator for musicxml",
   "main": "./lib/Iterator.js",
   "files": [
