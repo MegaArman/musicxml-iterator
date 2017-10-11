@@ -2,7 +2,7 @@
 This module aims to make melodic, harmonic, and rhythmic analysis easier by abstracting away the necessity of parsing MusicXML in the form of an Iterator. Demo coming soon!
 
 ```javascript
-const Iterator = require("musicxmliterator");
+const Iterator = require("musicxml-iterator");
 const i = Iterator(musicXML); //create an Iterator instance from a MusicXML string
 i.selectInstrument("Guitar");
 i.next();
