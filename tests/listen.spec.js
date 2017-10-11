@@ -15,11 +15,6 @@ test("key_change.xml", (t) =>
 
   t.deepEqual(i.selectInstrument("Piano"), true, "has Flute"); 
 
-  i.setMusicalChangeListener("Piano", "key", (key)=>
-  {
-    console.log("the new key is " + key);
-  });
-
   while (i.hasNext())
   {
     i.next();
