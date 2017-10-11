@@ -1,8 +1,11 @@
 {
   "name": "musicxmliterator",
-  "version": "1.0.0",
-  "description": "an iterator for musicxml",
+  "version": "0.0.0",
+  "description": "An iterator for musicxml",
   "main": "./lib/Iterator.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "./node_modules/.bin/eslint --cache ./lib/*.js tests/*.js",
     "test": "npm run lint && nyc tape tests/*.js | tap-nyc"
@@ -26,6 +29,13 @@
     "tap-nyc": "^1.0.3",
     "tape": "^4.8.0"
   },
+  "keywords": [
+    "music informatics",
+    "musicxml",
+    "iterator",
+    "music scores",
+    "music"
+  ],
   "dependencies": {
     "elementtree": "^0.1.7"
   }
